@@ -1,0 +1,14 @@
+
+
+let myself = {
+  firstName: 'Eli',
+  lastName: 'Drumm',
+  middleInit: 'T',
+  houseNumber: 6295,
+  street: 'Dover Ct.',
+  city: 'Fishers',
+  state: 'IN',
+  zipcode: '46038'
+}
+
+console.log

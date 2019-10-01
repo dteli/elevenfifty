@@ -1,0 +1,52 @@
+
+
+.beak {
+  /* background: #000; */
+  position: absolute;
+  height: 140px;
+  width: 340px;
+}
+
+
+.sface {
+  fill: turquoise;
+  stroke: #47f;
+  stroke-width: 8px;
+}
+
+.eyes {
+  position: absolute;
+  top: 200px;
+  left: 300px;
+}
+.seyes {
+  fill: #fff;
+  stroke: #000;
+  stroke-width: 2px;
+}
+
+
+.body {
+  z-index: -1;
+  position: absolute;
+  top: 300px;
+}
+
+.sbody {
+  fill: turquoise;
+  stroke: #47f;
+  stroke-width: 8px;
+}
+
+
+.arms {
+  position: absolute;
+  top: 500px;
+  left: 80px;
+}
+
+
+.feet {
+  position: absolute;
+  top: 1250px;
+}

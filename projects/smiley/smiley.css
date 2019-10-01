@@ -1,0 +1,80 @@
+
+.wrapper {
+  margin: 5px;
+}
+
+.face {
+  width: 1200px;
+  height: 1200px;
+  border: solid 4px #000;
+  background-color: #ff0;
+  border-radius: 800px;
+}
+
+.lefteye {
+  width: 96px;
+  height: 96px;
+  border: solid 2px #000;
+  border-radius: 48px;
+  z-index: 1;
+  position: relative;
+  left: 512px;
+  top: 416px;
+  background: #fff;
+}
+
+.righteye {
+  width: 96px;
+  height: 96px;
+  border: solid 2px #000;
+  border-radius: 48px;
+  z-index: 1;
+  position: relative;
+  left: 864px;
+  top: 316px;
+  background: #fff;
+}
+
+.mouth {
+  width: 480px;
+  height: 160px;
+  border: solid 1px #000;
+  border-radius: 0 0 720px 720px;
+  margin: 256px;
+  position: relative;
+  top: 200px;
+  left: 300px;
+  background: #000;
+}
+
+.innereye {
+  width: 32px;
+  height: 32px;
+  border: solid 16px #000;
+  border-radius: 32px;
+  left: 32px;
+  top: 32px;
+  background: #000;
+}
+
+.brow {
+  position: absolute;
+  stroke: #000;
+  stroke-width: 20px;
+}
+#browl {
+  left: 400px;
+  top: 220px;
+}
+#browr {
+  left: 800px;
+  top: 220px;
+}
+
+.beret {
+  fill: #a04;
+  stroke: orange;
+  stroke-width: 20px;
+  position: absolute;
+  top: -100px;
+}
